@@ -44,8 +44,8 @@ workflows:
             - node/test
           filters:
             branches:
-              only:
-                - circleci-project-setup
+              # only:
+                # - circleci-project-setup
       # uncomment the 3 following lines to enable deploying
       # - deploy:
       #     requires:
